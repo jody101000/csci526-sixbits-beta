@@ -6,6 +6,24 @@
     <title>Unity WebGL Player | Spinverse-BetaTest</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <!-- Firebase -->
+      <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics-compat.js"></script>
+
+      <script>
+      const firebaseConfig = {
+          apiKey: "AIzaSyAQWj_c4mO5ijDqbU45_Pc-mLOZjhDkcVU",
+          authDomain: "game-3778e.firebaseapp.com",
+          projectId: "game-3778e",
+          storageBucket: "game-3778e.firebasestorage.app",
+          messagingSenderId: "625684749689",
+          appId: "1:625684749689:web:0e79ff4b088c2af4b6e3a8",
+          measurementId: "G-7CV3MPJ18H"
+        };
+
+        const app = firebase.initializeApp(firebaseConfig);
+        const analytics = firebase.analytics();
+      </script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
